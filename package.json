@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --progress",
+    "start": "webpack serve --progress --open"
   },
   "devDependencies": {
     "@babel/cli": "^7.26.4",
